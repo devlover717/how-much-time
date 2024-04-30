@@ -1,0 +1,41 @@
+* {
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 1.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: lightblue;
+}
+
+.con {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 1em;
+}
+
+.content {
+    display: flex;
+    gap: 1em;
+    margin-top: 2em;
+}
+
+.val {
+    font-size: 1.4em;
+}
+
+
+
+.container {
+    text-align: center;
+}
+
+.container h2 {
+    margin-top: 1em;
+}
