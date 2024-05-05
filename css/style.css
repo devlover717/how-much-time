@@ -1,5 +1,5 @@
 * {
-    margin: 0; 
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
@@ -11,6 +11,7 @@ body {
     align-items: center;
     height: 100vh;
     background: lightblue;
+    padding: 1em;
 }
 
 .con {
@@ -34,8 +35,28 @@ body {
 
 .container {
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .container h2 {
     margin-top: 1em;
+}
+
+
+#input {
+    font-size: 1rem;
+    padding: 5px;
+    margin: 1em 0;
+}
+
+#btn {
+    font-size: 1rem;
+    padding: 0.5em 1em;
+    border-radius: 10px;
+    color: white;
+    background: black;
+    margin: 0.5em 0;
 }
