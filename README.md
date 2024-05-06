@@ -1,4 +1,4 @@
-# timer
+# how much time
 
 I made this application to Calculate time for upcoming events.
 
